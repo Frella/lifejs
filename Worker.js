@@ -8,7 +8,7 @@ var Life = Life || {};
 Life.World = function (parameters) {
     var _this = this,
         idCounter = 0,
-        closed = false;
+        closed = true;
 
     this.agents = new Array();
     this.food = new Array();
